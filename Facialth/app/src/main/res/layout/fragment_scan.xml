@@ -20,13 +20,82 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/scan"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/camera"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="651dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Scan Results for The Previous Action"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/text_gallery" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="232dp"
+        android:layout_marginBottom="550dp"
+        android:text="Disease Detected:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="148dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="549dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="None"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="168dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="338dp"
+        android:layout_marginBottom="477dp"
+        android:text="Precautions"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee_inline"
+        android:text="No Precaution as Of No Disease"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="224dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

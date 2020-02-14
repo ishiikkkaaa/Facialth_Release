@@ -69,6 +69,6 @@ public class SymptomsFragment extends Fragment {
             }
         });
         webView.getSettings().setAppCacheEnabled(true);
-        webView.loadUrl("https://www.juet.ac.in");
+        webView.loadUrl("https://webmd.checker");
     }
 }
